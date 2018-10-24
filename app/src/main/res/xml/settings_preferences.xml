@@ -1,0 +1,21 @@
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.PreferenceCategory
+        android:title="Category 1">
+        <androidx.preference.EditTextPreference
+            android:key="server_location"
+            android:title="Server Location"
+            android:summary="current location"
+            android:dialogMessage="change server location using this entry box."
+            android:defaultValue="Default value"/>
+
+        <SwitchPreference
+            android:key="dark_theme"
+            android:title="Toggle mode"
+            android:defaultValue="false"
+            />
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
